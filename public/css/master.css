@@ -1,0 +1,143 @@
+body {
+    text-align: left;
+    margin: 10px;
+    padding: 0;
+    background: #1F3F6F;
+    font-size: 12pt;
+    color: #EFDFCF;
+    font-family: Times, serif;
+}
+
+pre {
+    font-size: 12pt;
+    color: #DFCFDF;
+    background-color: #0F2F5F;
+    margin: 10px;
+    padding: 10px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #001040;
+    font-family: Courier, serif;
+}
+
+strong {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+h1 {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #EFDFCF;
+    font-family: Times, serif;
+}
+
+h2 {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #99CCCC;
+    font-family: Times, serif;
+}
+
+h3 {
+    font-size: 13pt;
+    font-weight: bold;
+    color: #EFDFCF;
+    font-family: Times, serif;
+}
+
+a {
+    color: #EFEF7F;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:active {
+    color: #FFFF8F;
+}
+
+a:visited {
+    color: #AFAF7F;
+}
+
+a:hover {
+    color: #DFDF6F;
+}
+
+
+.error {
+    display: block;
+    text-align: center;
+    width: 580px;
+    padding: 10px;
+    margin: 0;
+    background-color: #990000;
+    border-style: solid;
+    border-width: thin;
+    border-color: #000;
+    color: #ff6;
+    font-family: arial, serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.info {
+    display: block;
+    text-align: center;
+    width: 580px;
+    padding: 10px;
+    margin: 0;
+    background-color: #66FFFF;
+    border-style: solid;
+    border-width: thin;
+    border-color: #000;
+    color: #006666;
+    font-family: arial, serif;
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.debug {
+    display: block;
+    text-align: center;
+    width: 580px;
+    padding: 10px;
+    margin: 0;
+    background-color: #66FF66;
+    border-style: solid;
+    border-width: thin;
+    border-color: #000;
+    color: #006600;
+    font-family: arial, serif;
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.emphasis {
+    color: #FFFFBF;
+    font-weight: bold;
+}
+
+/* Homepage links */
+
+.col-25 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
